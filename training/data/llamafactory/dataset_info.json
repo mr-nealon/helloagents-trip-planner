@@ -1,0 +1,28 @@
+{
+  "trip_sft_train": {
+    "file_name": "generated/trip_sft_train.json"
+  },
+  "trip_sft_val": {
+    "file_name": "generated/trip_sft_val.json"
+  },
+  "trip_dpo_train": {
+    "file_name": "generated/trip_dpo_train.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "trip_dpo_val": {
+    "file_name": "generated/trip_dpo_val.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  }
+}
